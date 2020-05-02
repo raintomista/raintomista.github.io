@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "Rain Tomista",
+    "subtitle": "I am a Manila-based <strong>Frontend Engineer</strong> who loves crafting and building products that transform people's lives.",
+    "thumbnail": "/profile-img.jpg",
+    "cover": "https://images.pexels.com/photos/3815729/pexels-photo-3815729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "socialLinks": [
+      {
+        "name": "Email",
+        "url": "mailto:rstomista@up.edu.ph",
+        "icon": "/email.svg"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/raintomista",
+        "icon": "/github.svg"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/raintomista",
+        "icon": "/linkedin.svg"
+      },
+      {
+        "name": "Download Resume",
+        "url": "https://linkedin.com/in/raintomista",
+        "icon": "/file.svg"
+      }
+    ]
+  },
+  "showcase": {
+    "title": "Featured Projects"
+  }
+}

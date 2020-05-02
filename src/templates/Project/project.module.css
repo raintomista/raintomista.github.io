@@ -1,0 +1,51 @@
+.project__close {
+  top: 2rem;
+  right: 2rem;
+  position: absolute;
+  transition: transform 1s;
+  height: 20px;
+  width: 20px;
+}
+  
+.project__content {
+  margin: 2rem;
+  padding-top: 1.5rem;
+}
+
+.project__content > * {
+  margin-bottom: 0.8rem;
+}
+
+.project__content h1  {
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: 700;
+  height: calc(1.5rem + 5px);
+}
+
+.project__content h1::after {
+  left: 0;
+  top: 1.5rem;
+  position: absolute;
+  background-color: var(--dark);
+  content: '';
+  height: 5px;
+  width: 50px;
+}
+
+.project__content p {
+  color: var(--gray);
+}
+
+.project__content figcaption {
+  color: var(--gray);
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .project__content {
+    margin: 2rem auto;
+    width: calc(750px);
+  }
+}
