@@ -1,0 +1,114 @@
+.header {
+  background-attachment: fixed;
+  background-color: var(--dark);
+  background-position-x: center;
+  background-size: 819px 460.5px;
+  height: 60vh;
+  margin-bottom: calc(257px * 0.5);
+  padding: 0 1rem;
+}
+
+.header__content {
+  background-color: var(--light);
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: calc(100px + 0.5rem) 2rem 2rem 2rem;
+  position: relative;
+  top: calc(100% - (257px * 0.5));
+}
+
+.header__thumbnail {
+  background-color: var(--light);
+  background-position: center;
+  background-size: cover;
+  border: 5px solid var(--light);
+  border-radius: 100%;
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  left: calc(50% - 95px);
+  top: -95px;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.header__subtitle {
+  color: var(--gray);
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.header__subtitle strong {
+  color: var(--dark);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.header__icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.header__icon {
+  cursor: pointer;
+  transition: transform 0.2s;
+  height: 20px;
+  width: 20px;
+}
+
+.header__icon:hover {
+  transform: translateY(-2px);
+}
+
+.header__icon:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.header__icon img {
+  height: 20px;
+  width: 20px;
+}
+
+
+@media only screen and (min-width: 394px) {
+  .header {
+    margin-bottom: calc(238px * 0.5);
+  }
+  .header__content {
+    top: calc(100% - (238px * 0.5));
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .header__content {
+    margin: auto;
+    width: 80%;
+  }
+  .header__subtitle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header {
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 6rem;
+  }
+  .header__content {
+    width: 60%;
+  }
+  .header__subtitle {
+    margin: auto;
+    width: 60%;
+  }
+}
