@@ -1,12 +1,13 @@
 ---
 title: "UPvZ"
 date: 2015-04-01
+duration: "Apr 2015 - June 2015"
 featuredImage: images/upvz-thumbnail.png
-tags: ["HTML, CSS, JQuery"]
+tags: ["Java"]
 ---
 
-UP vs. Zzztudents (UPvZ)
-============
+UPvZ is a Plants vs. Zombie-like Java game inspired by icons and landmarks within UPLB. The video game received the highest remark among the other coursework projects for CMSC 22 and was selected to be part of the ICS Week 2017 Exhibit.
+
 ![Splash Screen](images/upvz-splashscreen.png)
 ![Instructions](images/upvz-instructions.png)
 ![Gameplay #1](images/upvz-gameplay-1.png)

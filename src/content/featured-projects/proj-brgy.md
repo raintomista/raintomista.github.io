@@ -1,33 +1,32 @@
 ---
-title: B2P Web
-date: 2018-08-01
+title: "PROJ: BRGY"
+date: 2018-12-01
+duration: "Mar 2018 - Dec 2018"
 featuredImage: images/b2p-thumbnail.png
-tags: ["React/MobX"]
+tags: ["React & MobX"]
 ---
 
-B2P Web
-============
+PROJ: BRGY, in partnership with local government units (LGUs), is a social network tailor-made specifically for the masses. The users are always in the loop regarding the current projects, issues, updates, and events in their designated barangays. The E-Services feature allows them to request for Barangay Clearance, Business Permits, and Katarungang Pambarangay Services at the tip of their fingers. The users can also voice out their concerns by sending reports, feedbacks, inquiries, and complaints. Through this feature, LGUs could immediately provide emergency response and action plan to fulfill their concerns.
 
-A social network built using Reactthat bridges the gap between local govertnment units and their people.
-![Login Page](images/b2p-login.png "Login Page")
-![Signup Page](images/b2p-signup.png "Signup Page")
-![Newsfeed, Member Dashboard](images/b2p-member-newsfeed.png "Newsfeed, Member Dashboard")
-![Search, Member Dashboard](images/b2p-member-search.png "Search, Member Dashboard")
-![My Barangay, Member Dashboard](images/b2p-my-barangay.png "My Barangay, Member Dashboard")
-![My Barangay E-Services Modal, Member Dashboard](images/b2p-eservices.png "My Barangay E-Services Modal, Member Dashboard")
-![Barangay Clearance Form, Member Dashboard](images/b2p-brgy-clearance.png "Barangay Clearance Form, Member Dashboard")
-![Messages, Member Dashboard](images/b2p-messages.png "Messages, Member Dashboard")
-![Create Report, Member Dashboard](images/b2p-member-create-report.png "Create Report, Member Dashboard")
-![Shares, Member's Profile](images/b2p-member-share.png "Shares, Member's Profile")
-![Following, Members' Profile](images/b2p-member-following.png "Following, Members' Profile")
-![Newsfeed, Admin Dashboard](images/b2p-brgy-newsfeed.png "Newsfeed, Admin Dashboard")
-![Post Feature, Admin Dashboard](images/b2p-brgy-post.png "Post Feature, Admin Dashboard")
-![Share Post Confirmation, Admin Dashboard](images/b2p-brgy-share-post-confirmation.png "Share Post Confirmation, Admin Dashboard")
-![Barangay Residents, Admin Dashboard](images/b2p-brgy-residents.png "Barangay Residents, Admin Dashboard")
-![Barangay Members' Reports, Admin Dashboard](images/b2p-brgy-reports.png "Barangay Members' Reports, Admin Dashboard")
-![Barangay Member's Report Overview, Admin Dashboard](images/b2p-brgy-report-overview.png "Barangay Member's Report Overview, Admin Dashboard")
-![Barangay E-Services, Admin Dashboard](images/b2p-brgy-eservices.png "Barangay E-Services, Admin Dashboard")
-![Analytics, Super Admin Dashboard](images/b2p-superadmin-dashboard.png "Analytics, Super Admin Dashboard")
+![Login Page](images/b2p-login.png)
+![Signup Page](images/b2p-signup.png)
+![Newsfeed, Member Dashboard](images/b2p-member-newsfeed.png)
+![Search, Member Dashboard](images/b2p-member-search.png)
+![My Barangay, Member Dashboard](images/b2p-my-barangay.png)
+![My Barangay E-Services Modal, Member Dashboard](images/b2p-eservices.png)
+![Barangay Clearance Form, Member Dashboard](images/b2p-brgy-clearance.png)
+![Messages, Member Dashboard](images/b2p-messages.png)
+![Create Report, Member Dashboard](images/b2p-member-create-report.png)
+![Shares, Member's Profile](images/b2p-member-share.png)
+![Following, Members' Profile](images/b2p-member-following.png)
+![Newsfeed, Admin Dashboard](images/b2p-brgy-newsfeed.png)
+![Post Feature, Admin Dashboard](images/b2p-brgy-post.png)
+![Share Post Confirmation, Admin Dashboard](images/b2p-brgy-share-post-confirmation.png)
+![Barangay Residents, Admin Dashboard](images/b2p-brgy-residents.png)
+![Barangay Members' Reports, Admin Dashboard](images/b2p-brgy-reports.png)
+![Barangay Member's Report Overview, Admin Dashboard](images/b2p-brgy-report-overview.png)
+![Barangay E-Services, Admin Dashboard](images/b2p-brgy-eservices.png)
+![Analytics, Super Admin Dashboard](images/b2p-superadmin-dashboard.png)
 
 
 

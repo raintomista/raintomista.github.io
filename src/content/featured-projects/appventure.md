@@ -1,13 +1,13 @@
 ---
 title: AppVenture Time
 date: 2017-06-01
+duration: "June 2017 - July 2017"
 featuredImage: images/appventure-thumbnail.png
-tags: ["MongoDB, Express, Angular, NodeJS"]
+tags: ["MEAN Stack"]
 ---
 
-AppVenture Time
-============
-Built with Ionic
+AppVenture Time is an employee management and time-logging system made exclusively for the use of AppVenture, Inc. It features a real-time employee monitor and an email notification system for administrators to determine who among the employees came in late or did not show up. It also prevents unauthorized time-logging with the IP Whitelisting/Blacklisting feature.
+
 ![Login Page](images/appventure-login.png)
 ![Home, Admin Dashboard](images/appventure-admin-home.png)
 ![Timelogs Monitor, Admin Dashboard](images/appventure-admin-timelogs.png)
