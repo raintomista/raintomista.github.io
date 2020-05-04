@@ -1,12 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
+import SEO from "@components/SEO"
 import styles from "@templates/Project/project.module.css"
 
 export default function Project ({ data }) {
   const post = data.markdownRemark
   return (
     <div className={styles.project}>
+      <SEO title={post.frontmatter.title} description={post.excerpt} />
       <AniLink paintDrip to="/" hex="#000000">
         <div className={styles.project__close}>
           <img src="/close.svg" alt="close"/>
@@ -38,6 +40,7 @@ export const query = graphql`
         tags,
         duration
       }
+      excerpt
     }
   }
 `

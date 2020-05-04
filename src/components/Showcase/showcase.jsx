@@ -2,7 +2,7 @@ import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Card from "@components/Showcase/showcaseCard"
 import styles from "@components/Showcase/showcase.module.css"
-import { showcase as content } from "@content/json/index.json"
+import { showcase as content } from "@content/json/strings.json"
 
 export default ({ projects }) => (
   <section className={styles.showcase}>

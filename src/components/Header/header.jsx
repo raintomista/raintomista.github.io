@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@components/Header/header.module.css"
-import { header as content } from "@content/json/index.json"
+import { header as content } from "@content/json/strings.json"
 
 export default (props) => (
   <header className={styles.header}

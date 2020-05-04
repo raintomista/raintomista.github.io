@@ -1,5 +1,24 @@
 module.exports = {
+  siteMetadata: {
+    title: `Rain Tomista`,
+    description: `Rain Tomista | Frontend Engineer | React, Vue, Angular, CSS`,
+    author: `Rain Tomista`,
+  },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Rain Tomista`,
+        short_name: `R+`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#000000`,
+        display: `standalone`,
+        icon: `static/favicon.svg`
+      },
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-transition-link`,
     `gatsby-transformer-sharp`,
