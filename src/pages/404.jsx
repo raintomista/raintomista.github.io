@@ -1,4 +1,10 @@
 import React from "react"
-import { Redirect } from '@reach/router'
+import { useEffect } from 'react';
+import { navigate } from 'gatsby';
 
-export default () => <Redirect to="/" />
+export default () => {
+  useEffect(() => {
+    navigate('/');
+  }, []);
+  return null;
+};

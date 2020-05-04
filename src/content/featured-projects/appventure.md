@@ -6,7 +6,7 @@ featuredImage: images/appventure-thumbnail.png
 tags: ["MEAN Stack"]
 ---
 
-AppVenture Time is an employee management and time-logging system made exclusively for the use of AppVenture, Inc. It features a real-time employee monitor and an email notification system for administrators to determine who among the employees came in late or did not show up. It also prevents unauthorized time-logging with the IP Whitelisting/Blacklisting feature.
+AppVenture Time is an employee management and time-logging system made exclusively for the use of AppVenture, Inc. It features a real-time employee monitor and an email notification system for administrators to determine who among the employees came in late or did not show up. It also prevents unauthorized access with the IP Restriction feature in the Network Monitor.
 
 ![Login Page](images/appventure-login.png)
 ![Home, Admin Dashboard](images/appventure-admin-home.png)
