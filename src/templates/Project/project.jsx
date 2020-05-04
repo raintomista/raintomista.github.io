@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import styles from "@templates/Project/project.module.css"
 
