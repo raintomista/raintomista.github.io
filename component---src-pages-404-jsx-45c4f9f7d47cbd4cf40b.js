@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{pssB:function(n,t,e){"use strict";e.r(t);var c=e("q1tI"),u=e("Wbzz");t.default=function(){return Object(c.useEffect)((function(){Object(u.navigate)("/")}),[]),null}}}]);
+//# sourceMappingURL=component---src-pages-404-jsx-45c4f9f7d47cbd4cf40b.js.map
