@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/pages/404.jsx"],"names":["to"],"mappings":"2FAAA,4CAGe,4BAAM,kBAAC,WAAD,CAAUA,GAAG","file":"component---src-pages-404-jsx-8c9403311e9bf7408c4e.js","sourcesContent":["import React from \"react\"\nimport { Redirect } from '@reach/router'\n\nexport default () => <Redirect to=\"/\" />"],"sourceRoot":""}
