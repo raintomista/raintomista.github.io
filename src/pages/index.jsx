@@ -4,12 +4,15 @@ import SEO from "@components/SEO"
 import Header from "@components/Header"
 import Showcase from "@components/Showcase"
 import Footer from "@components/Footer"
+import { header as content } from "@content/json/strings.json"
+
 
 export default ({ data }) => (
   <React.Fragment>
     <SEO title={data.site.siteMetadata.title}
       description={data.site.siteMetadata.description}
       author={data.site.siteMetadata.author}
+      thumbnail={content.cover}
     />
     <Header />
     <Showcase projects={data.allMarkdownRemark.edges} />

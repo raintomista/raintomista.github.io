@@ -6,9 +6,14 @@ import styles from "@templates/Project/project.module.css"
 
 export default function Project ({ data }) {
   const post = data.markdownRemark
+
   return (
     <div className={styles.project}>
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.excerpt}
+        thumbnail={post.frontmatter.featuredImage.publicURL}
+      />
       <AniLink paintDrip to="/" hex="#000000">
         <div className={styles.project__close}>
           <img src="/close.svg" alt="close"/>
@@ -38,7 +43,10 @@ export const query = graphql`
       frontmatter {
         title,
         tags,
-        duration
+        duration,
+        featuredImage {
+          publicURL
+        }
       }
       excerpt
     }
