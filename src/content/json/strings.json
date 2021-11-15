@@ -3,6 +3,7 @@
     "title": "Rain Tomista",
     "subtitle": "I'm Rain, a product-centric frontend engineer based in 🇵🇭  Manila, Philippines.",
     "thumbnail": "/avatar.jpeg",
+    "fullSizedThumbnail": "/fullsized-avatar.png",
     "cover": "https://images.pexels.com/photos/3815729/pexels-photo-3815729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "socialLinks": [
       {

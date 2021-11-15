@@ -12,7 +12,7 @@ export default ({ data }) => (
     <SEO title={data.site.siteMetadata.title}
       description={data.site.siteMetadata.description}
       author={data.site.siteMetadata.author}
-      thumbnail={content.cover}
+      thumbnail={content.fullSizedThumbnail}
     />
     <Header />
     <Showcase projects={data.allMarkdownRemark.edges} />
