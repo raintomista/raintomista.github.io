@@ -1,13 +1,13 @@
 {
   "header": {
     "title": "Rain Tomista",
-    "subtitle": "I am a Manila-based <strong>Frontend Engineer</strong> who loves crafting and building products that transform people's lives.",
-    "thumbnail": "/profile-img.jpg",
+    "subtitle": "I'm Rain, a product-centric frontend engineer based in 🇵🇭  Manila, Philippines.",
+    "thumbnail": "/avatar.jpeg",
     "cover": "https://images.pexels.com/photos/3815729/pexels-photo-3815729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "socialLinks": [
       {
         "name": "Email",
-        "url": "mailto:rstomista@up.edu.ph",
+        "url": "mailto:rftomista@gmail.com",
         "icon": "/email.svg"
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         "name": "Download Resume",
-        "url": "https://drive.google.com/file/d/1iYhIL7fhl9YuYAwfEV-pr4BM0jK7BP4r/view?usp=sharing",
+        "url": "https://drive.google.com/file/d/",
         "icon": "/file.svg"
       }
     ]
