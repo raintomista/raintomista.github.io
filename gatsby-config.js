@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Rain Tomista`,
-    description: `Rain Tomista | Frontend Engineer | React, Vue, Angular, CSS`,
-    author: `Rain Tomista`,
+    description: `A product-centric frontend engineer based in 🇵🇭  Manila, Philippines.`,
+    author: `Rainier Francis Tomista`,
   },
   plugins: [
     {
