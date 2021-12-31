@@ -2,7 +2,7 @@
 title: "SpryLMS"
 date: 2020-02-01
 duration: "Aug 2019 - Feb 2020"
-featuredImage: images/sprylms-thumbnail.png
+featuredImage: images/sprylms-thumbnail.jpg
 tags: ["VueJS"]
 ---
 
